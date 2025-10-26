@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - MiSitio</title>
+  <link rel="stylesheet" href=" estilos.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="nav-logo">MiSitio</a>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link active">About Us</a>
+    </div>
+    <div class="nav-right">
+      <span id="userName" class="user-name"></span>
+      <button id="loginBtn" class="icon-btn" title="Login">
+        <span class="login-icon">🔒</span>
+      </button>
+    </div>
+  </nav>
+  <main>
+    <section id="about">
+      <h1>Sobre Mí</h1>
+      <p>Soy una estudiante de ISC que cursa 5to semestre y que pesar de no saber como llegue aqui,</p>
+      <p>El proceso ha sido duro y doloroso pero ha valido totalmente la pena. Ánimo.</p>
+    </section>
+  </main>
+
+  <!-- Modal de Login COMPLETAR -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Iniciar Sesion</h2>
+      <form id="formLogin">
+        <input type="text" id="login" placeholder="Usuario" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div> 
+  
+  <footer class="site-footer">
+    <p>Maria Fernanda Resendiz Mejia</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
